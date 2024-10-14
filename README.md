@@ -1,8 +1,6 @@
-<a href="https://github.com/kisbalazspatrik/nextjs-saas-landing/">
-    <img width="100%" src="https://i.imgur.com/XjcKIXF.png">
-  </a>
 
-# Stargate: NextJS SaaS Project Template
+
+
 
 Stargate is a modern SaaS Landing Page template built with NextJS. It's designed to provide a seamless and engaging experience for showcasing software products, especially those in the tech and startup niches.
 
@@ -39,11 +37,4 @@ Contributions are welcome! To contribute, simply fork this repository, create a 
 
 This project is licensed under the MIT License.
 
-<div style="display: flex;gap:8px;">
-<a href="https://github.com/kisbalazspatrik/nextjs-saas-landing/issues">
-    <img src="https://img.shields.io/github/issues/kisbalazspatrik/nextjs-saas-landing?color=0088ff&style=for-the-badge&logo=github"/>
-  </a>
-<a href="https://github.com/kisbalazspatrik/nextjs-saas-landing/pulls">
-    <img src="https://img.shields.io/github/issues-pr/kisbalazspatrik/nextjs-saas-landing?color=0088ff&style=for-the-badge&logo=github"/>
-  </a>
-</div>
+
