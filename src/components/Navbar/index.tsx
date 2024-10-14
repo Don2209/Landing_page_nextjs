@@ -8,6 +8,7 @@ import {
   Flex,
   Icon,
   IconButton,
+  Image,  // Import Image from Chakra UI
   Text,
   useDisclosure,
 } from "@chakra-ui/react";
@@ -15,6 +16,7 @@ import { LuMenu, LuX } from "react-icons/lu";
 import { motion } from "framer-motion";
 import { StargateColors } from "#/src/utils/Colors";
 import useBannerVisibility from "#/src/utils/BannerVisibility";
+import Logo from "#/src/images/back.png"; // Import your PNG logo
 
 const NavItems = [
   { name: "Features", href: "/#features" },
@@ -83,16 +85,15 @@ const Navbar: FC = () => {
           align="center"
           justify="space-between"
         >
-          <Text
-            as={Link}
-            href="/"
-            fontSize="3xl"
-            userSelect="none"
-            color={isScrolled ? "black" : "white"}
-            fontWeight={600}
-          >
-            AMAI
-          </Text>
+          {/* Replace the Text with the Image */}
+          <Link href="/">
+            <Image
+              src="http://localhost:3000/images/favicon.png"
+              alt="Logo"
+              boxSize="50px" // Adjust the size as needed
+            />
+          </Link>
+
           <Flex
             gap={5}
             display={{ base: "none", lg: "flex" }}
@@ -125,7 +126,6 @@ const Navbar: FC = () => {
             <Button variant="link" color={isScrolled ? "black" : "white"}>
               Log in
             </Button>
-            
           </Flex>
 
           <IconButton

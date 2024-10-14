@@ -24,15 +24,15 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: {
     template: "Stargate | %s",
-    default: "Stargate | NextJS SaaS Landing",
+    default: "AMAI | Landing page",
   },
   description:
     "Stargate is a modern SaaS Landing Page template built with NextJS. It's designed to provide a seamless and engaging experience for showcasing software products, especially those in the tech and startup niches.",
   icons: [{ rel: "icon", url: favicon.src }],
   metadataBase: new URL("https://stargate.nfteam.eu/"),
   openGraph: {
-    title: "Stargate | NextJS SaaS Landing",
-    siteName: "Stargate | NextJS SaaS Landing",
+    title: "AMAI | Landing page",
+    siteName: "AMAI | Landing page",
     description:
       "Stargate is a modern SaaS Landing Page template built with NextJS. It's designed to provide a seamless and engaging experience for showcasing software products, especially those in the tech and startup niches.",
     url: "https://stargate.nfteam.eu/",
@@ -59,12 +59,12 @@ export const metadata: Metadata = {
         url: SummaryLargeImage.src,
         width: SummaryLargeImage.width,
         height: SummaryLargeImage.height,
-        alt: "Stargate | NextJS SaaS Landing",
+        alt: "AMAI | Landing page",
       },
     ],
   },
   alternates: {
-    canonical: "https://stargate.nfteam.eu/",
+    canonical: "",
   },
 };
 
@@ -78,6 +78,7 @@ export default function RootLayout({ children }: LayoutProps) {
           <Navbar />
           {children}
           <Footer />
+          
         </Providers>
       </body>
     </html>
