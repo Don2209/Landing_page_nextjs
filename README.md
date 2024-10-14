@@ -9,7 +9,7 @@ Stargate is a modern SaaS Landing Page template built with NextJS. It's designed
 To get started, clone this repository and run `npm install` to install all the necessary packages.
 
 ```bash
-git clone https://github.com/kisbalazspatrik/nextjs-saas-landing.git
+https://github.com/Don2209/Landing_page_nextjs.git
 cd nextjs-saas-landing
 npm install
 ```
